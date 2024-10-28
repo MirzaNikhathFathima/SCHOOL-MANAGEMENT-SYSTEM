@@ -1,0 +1,70 @@
+/* Page Transition Animation */
+@keyframes diamond-in-center {
+  from {
+    clip-path: polygon(50% 50%, 50% 50%, 50% 50%, 50% 50%);
+  }
+  to {
+    clip-path: polygon(-50% 50%, 50% -50%, 150% 50%, 50% 150%);
+  }
+}
+
+.page-transition {
+  animation: 1.5s cubic-bezier(.25, 1, .30, 1) diamond-in-center both;
+  background-color: #007BFF; /* Blue color */
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Card container with Flexbox for layout */
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.card-row {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-bottom: 20px;
+}
+
+.card {
+  width: 200px;
+  height: 200px;
+  background: linear-gradient(45deg, #85E3FF, #FFB6E5); /* Light gradient */
+  border-radius: 50%;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4);
+}
+
+.icon-container {
+  margin-bottom: 10px;
+}
+
+.text-dark {
+  margin: 5px 0;
+  color: #333;
+  font-size: 1.5em;
+}
+
+p {
+  text-align: center;
+  padding: 0 10px;
+}

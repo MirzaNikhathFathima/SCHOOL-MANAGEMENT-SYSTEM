@@ -1,0 +1,59 @@
+.teacherlogin-bg {
+    background-image: url(../../assets/Images/adminbg.jpg);
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+     height: 100vh;
+ }
+.card {
+    background-color: #4A148C;
+    border-radius: 15px;
+}
+
+.form-check-label,
+a.text-white {
+    font-size: 14px; 
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.card h3 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+.card a.text-white {
+    font-size: 0.9rem;
+    display: block;
+    margin-bottom: 1rem;
+    text-decoration: none;
+}
+
+.card button {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    background-color: #FFC107;
+    border: none;
+    color: black;
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+.card button:hover {
+    background-color: #e0a800;
+}
+
+.card img {
+    max-width: 80%;
+    border-radius: 10px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+} 

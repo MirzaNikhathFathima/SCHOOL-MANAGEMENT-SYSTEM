@@ -1,0 +1,83 @@
+/* Center the page and form styling */
+.student-page-container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.add-student-btn {
+  background-color: #4A148C;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-student-btn:hover {
+  background-color: #6a1b9a;
+}
+
+/* Center the form and set width to 45% of the page */
+.student-form-container {
+  margin-top: 20px;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.student-form {
+  text-align: left;
+  margin-top: 30px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.add-btn-container {
+  text-align: center;
+}
+
+.register-btn {
+  background-color: #4A148C;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.register-btn:hover {
+  background-color: #6a1b9a;
+}
+
+/* Add card styling for the form */
+.student-form-container {
+  background-color: #fff;
+  padding: 30px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  transition: box-shadow 0.3s ease;
+}
+
+.student-form-container:hover {
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+}

@@ -1,0 +1,28 @@
+.assignments-page {
+  width: 100%; /* Full width */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; /* Center items horizontally */
+  padding: 20px;
+}
+
+.assignment-form {
+  margin-bottom: 20px;
+  width: 100%; /* Full width */
+  max-width: 600px; /* Limit the form width */
+}
+
+.assignment-item {
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 600px; /* Limit the width of each assignment item */
+}
+
+h2, h3 {
+  text-align: center; /* Center the headings */
+}

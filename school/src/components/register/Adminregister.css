@@ -1,0 +1,54 @@
+/* Ensures the background image covers the entire viewport and remains responsive */
+.adminregister-bg {
+    background-image: url('https://png.pngtree.com/background/20210717/original/pngtree-minimalist-financial-statement-project-proposal-picture-image_1440070.jpg');
+    background-size: cover; /* Ensures the image covers the full area */
+    background-position: center;
+    background-repeat: repeat;
+    width: 100vw; /* Full width of the viewport */
+    height: 100vh; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    position: relative; 
+}
+
+.container {
+    padding: 2rem;
+    background-color: rgba(255, 255, 255, 0.85); /* Slight transparency for the card */
+    border-radius: 10px;
+    max-width: 400px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add shadow to the card */
+}
+
+/* Modify the card’s appearance */
+.card {
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+/* Button styling */
+.btn-primary {
+    background-color: #4A148C;
+    border-color: #4A148C;
+    border-radius: 5px;
+}
+
+/* Form label styling */
+.form-label {
+    font-weight: bold;
+}
+
+/* Form control input field styling */
+.form-control {
+    border-radius: 5px;
+}
+
+/* Shadow styling for the card */
+.shadow-lg {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Optional: Styling for error messages */
+.text-danger {
+    font-size: 0.875rem;
+}

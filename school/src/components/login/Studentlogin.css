@@ -1,0 +1,48 @@
+.studentlogin-bg {
+  background-image: url(../../assets/Images/adminbg.jpg);
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   height: 100vh;
+}
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .studentlogin-bg {
+    background-color: #f5f3e6; /* Light background color */
+  }
+  
+  .login-card {
+    background-color: #f36749; /* Dark purple background for the card */
+    border-radius: 15px;
+  }
+  
+  
+  .form-control {
+    border-radius: 25px; /* Rounded inputs */
+  }
+  
+  .form-check-label,
+  a.text-white {
+    font-size: 14px;
+  }
+  
+  .card h3 {
+    color: #fff; /* White text for the heading */
+  }
+  
+  .btn-warning {
+    width: 100%;
+    border-radius: 25px;
+  }
+  
+  a.text-warning {
+    color: #fdd835; /* Yellow text for links */
+  }
+  
+  .form-group {
+    margin-bottom: 1rem;
+  }

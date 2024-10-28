@@ -1,0 +1,52 @@
+.adminlogin-bg {
+    background-image: url(../../assets/Images/adminbg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.bg-white {
+    background-color: #deded9; 
+}
+
+.text-dark {
+    color: #000000; 
+}
+
+.login-card {
+    background-color: #4A148C;
+    border-radius: 15px; 
+}
+
+/* Styling for the form check (checkbox and label) */
+.custom-checkbox {
+    width: 18px; /* Making it a square */
+    height: 18px;
+    border-radius: 0; /* No rounded corners */
+    border: 1px solid #ccc;
+    background-color: white;
+}
+
+.custom-checkbox:checked {
+    background-color: #4A148C;
+    border-color: #4A148C;
+}
+
+.custom-checkbox:focus {
+    box-shadow: none;
+}
+
+/* Ensure proper spacing for the form label */
+.form-check-label {
+    font-size: 14px; 
+    margin-left: 5px; /* Add spacing between checkbox and label */
+}
+
+a.text-white {
+    font-size: 14px; 
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}

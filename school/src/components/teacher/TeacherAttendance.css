@@ -1,0 +1,52 @@
+.attendance-container {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .student-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .rollno-box {
+    width: 50px; /* Adjust the size of the box */
+    height: 50px;
+    background-color: green; /* Default color for present */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .rollno-box.absent {
+    background-color: red; /* Color for absent */
+  }
+  
+  .submit-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .popup-message {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: lightgreen; /* Background color for success */
+    color: black;
+    border: 1px solid green;
+    border-radius: 5px;
+    display: inline-block;
+  }
+  

@@ -1,0 +1,163 @@
+/* Teacher header styling */
+.teacher-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #343a40;
+    color: #fff;
+    padding: 15px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .header-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .menu-btn {
+    font-size: 24px;
+    cursor: pointer;
+    background: none;
+    border: none;
+    color: white;
+    margin-right: 20px;
+  }
+  
+  h1 {
+    margin: 0;
+    font-size: 1.5rem;
+  }
+  
+  .header-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logout-btn {
+    cursor: pointer;
+    background-color: #dc3545;
+    border: none;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 5px;
+    margin: auto;
+  }
+  
+  .logout-btn:hover {
+    background-color: #c82333;
+  }
+  
+  /* Sidebar styles */
+  .sidebar {
+    width: 250px;
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px;
+    min-height: 100vh;
+    position: fixed;
+    top: 60px;
+    left: -250px;
+    transition: all 0.3s ease;
+  }
+  
+  .sidebar.open {
+    left: 0;
+  }
+  
+  .nav-links {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .nav-links li {
+    margin: 1.5rem 0;
+  }
+  
+  .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+  
+  .nav-links a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Main content styles */
+  .main-content {
+    margin-left: 0;
+    padding: 20px;
+    transition: margin-left 0.3s ease;
+  }
+  
+  .sidebar.open + .main-content {
+    margin-left: 250px;
+  }
+  
+  /* Custom card styling for teacher info */
+  .teacher-info-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Reduced gap between cards */
+    margin-top: 50px;
+  }
+  
+  .teacher-info-card {
+    width: 250px; /* Increased width */
+    height: 150px; /* Increased height */
+    padding: 20px;
+    margin-right: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+  }
+  
+  .name-card {
+    background-color: #3693f7; /* Blue color for Teacher Name */
+  }
+  
+  .id-card {
+    background-color: #28a745; /* Green color for Teacher ID */
+  }
+  
+  /* Confirmation dialog overlay */
+  .logout-confirm-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1001; /* Make sure it appears over the page */
+  }
+  
+  /* Confirmation dialog box */
+  .logout-confirm-box {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  .logout-confirm-box p {
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+  }
+  
+  /* Buttons for logout confirmation */
+  .logout-confirm-buttons {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .logout-confirm-buttons .btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+  }
